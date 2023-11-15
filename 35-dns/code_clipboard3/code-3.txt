@@ -1,0 +1,9 @@
+# Replace the pod name to what you have running locally
+kubectl exec -it hellok8s-7f4c57d446-7j6rd -- sh
+
+# Replace the service ip to what you have running locally
+curl http://10.102.141.32:4567
+# [v3] Hello, Kubernetes, from hellok8s-7f4c57d446-7j6rd!
+
+curl http://hellok8s-svc:4567
+# [v3] Hello, Kubernetes, from hellok8s-7f4c57d446-lh44f!

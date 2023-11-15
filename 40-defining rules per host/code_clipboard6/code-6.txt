@@ -1,0 +1,5 @@
+curl http://hello.local.com
+# [v3] Hello, Kubernetes, from hellok8s-7f4c57d446-qth54!
+
+curl http://nginx.local.com
+# nginx welcome page

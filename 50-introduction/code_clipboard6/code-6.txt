@@ -1,0 +1,7 @@
+kubectl get secret hellok8s-secret -o yaml
+
+# apiVersion: v1
+# kind: Secret
+# data:
+#   SECRET_MESSAGE: SXQgd29ya3Mgd2l0aCBhIFNlY3JldAo=
+# ...

@@ -1,0 +1,11 @@
+kubectl apply -f ingress.yaml
+# ingress.extensions/hello-ingress created
+
+# Please enter the following command if you get an error while applying the ingress 
+# and then reapply the ingress using the above command
+# If not, you can skip this command and move ahead
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
+kubectl get ingress
+# NAME            HOSTS   ADDRESS     PORTS   AGE
+# hello-ingress   *       localhost   80      1m

@@ -1,0 +1,2 @@
+kubectl exec -it nginx -- bash
+root@nginx:/#

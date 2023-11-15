@@ -1,0 +1,7 @@
+kubectl exec nginx -- ls
+# bin
+# boot
+# dev
+# etc
+# home
+# ...

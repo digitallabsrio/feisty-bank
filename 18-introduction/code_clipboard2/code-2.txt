@@ -1,0 +1,5 @@
+# Build the image
+docker build . -t brianstorti/hellok8s:v1
+
+# And push it to DockerHub
+docker push brianstorti/hellok8s:v1

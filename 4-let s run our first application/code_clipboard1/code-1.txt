@@ -1,0 +1,4 @@
+kubectl get pods
+
+# NAME        READY   STATUS              RESTARTS
+# nginx       0/1     ContainerCreating   0   

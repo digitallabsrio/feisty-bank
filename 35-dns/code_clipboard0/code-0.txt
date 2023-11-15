@@ -1,0 +1,8 @@
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+kubectl get pods
+
+# NAME                        READY   STATUS    RESTARTS
+# hellok8s-7f4c57d446-7j6rd   1/1     Running   0       
+# hellok8s-7f4c57d446-lh44f   1/1     Running   0     

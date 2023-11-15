@@ -1,0 +1,7 @@
+kubectl apply -f hellok8s.yaml
+# service/hellok8s-svc created
+# deployment.apps/hellok8s created
+
+kubectl apply -f nginx.yaml
+# service/nginx-svc created
+# deployment.apps/nginx created

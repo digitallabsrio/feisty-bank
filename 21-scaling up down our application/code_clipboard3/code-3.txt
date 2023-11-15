@@ -1,0 +1,13 @@
+kubectl get pods
+
+# NAME                        READY   STATUS              
+# hellok8s-6678f66cb8-8nqf2   1/1     Running             
+# hellok8s-6678f66cb8-6r7fb   0/1     Pending             
+# hellok8s-6678f66cb8-7bg4s   0/1     Pending             
+# hellok8s-6678f66cb8-96xh5   0/1     Pending             
+# hellok8s-6678f66cb8-cmb4j   0/1     ContainerCreating   
+# hellok8s-6678f66cb8-h5tg4   0/1     ContainerCreating   
+# hellok8s-6678f66cb8-j2b5n   0/1     Pending             
+# hellok8s-6678f66cb8-l5hzw   0/1     Pending             
+# hellok8s-6678f66cb8-r9bzd   0/1     ContainerCreating   
+# hellok8s-6678f66cb8-wl4bb   0/1     ContainerCreating  

@@ -1,0 +1,4 @@
+kubectl exec -it busybox -- top
+# ...
+#   PID  PPID USER %CPU COMMAND
+#     1     0 root 51.5 dd if /dev/zero of /dev/null

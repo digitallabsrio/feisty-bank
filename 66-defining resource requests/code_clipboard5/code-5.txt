@@ -1,0 +1,4 @@
+kubectl get pods
+# NAME             READY   STATUS
+# busybox          1/1     Running
+# hungry-busybox   0/1     Pending

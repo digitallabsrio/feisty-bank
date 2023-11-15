@@ -1,0 +1,5 @@
+kubectl apply -f service.yaml -n default
+# service/hellok8s-svc created
+
+kubectl apply -f service.yaml -n my-namespace
+# service/hellok8s-svc created

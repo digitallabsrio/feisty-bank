@@ -1,0 +1,5 @@
+kubectl proxy
+# Starting to serve on 127.0.0.1:8001
+
+# To run it on the platform, run the following command
+kubectl proxy --address 0.0.0.0 --accept-hosts='.*'

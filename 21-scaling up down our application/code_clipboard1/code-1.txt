@@ -1,0 +1,2 @@
+kubectl apply -f scaleup.yaml
+# deployment.apps/hellok8s configured

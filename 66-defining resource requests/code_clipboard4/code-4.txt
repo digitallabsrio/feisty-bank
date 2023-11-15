@@ -1,0 +1,2 @@
+kubectl apply -f hungry-busybox.yaml
+#  pod/hungry-busybox created

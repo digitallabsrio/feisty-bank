@@ -1,0 +1,7 @@
+kubectl describe pod hungry-busybox
+# ...
+# Events:
+# Type     Reason            Message
+# ----     ------            -------
+# Warning  FailedScheduling  0/1 nodes are available:
+#                            1 Insufficient cpu.

@@ -1,0 +1,9 @@
+docker info
+
+# Containers: 46
+# Running: 22
+# Paused: 0
+# Stopped: 24
+# Images: 198
+# Server Version: 18.09.2
+# ...

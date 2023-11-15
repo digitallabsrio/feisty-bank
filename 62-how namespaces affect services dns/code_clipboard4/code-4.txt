@@ -1,0 +1,8 @@
+curl hellok8s-svc:4567
+# [v4] Hello, Kubernetes (from hellok8s)
+
+curl hellok8s-svc.default:4567
+# [v4] Hello, Kubernetes (from hellok8s)
+
+curl hellok8s-svc.my-namespace:4567
+# [v3] Hello, Kubernetes, from hellok8s!

@@ -1,0 +1,14 @@
+kubectl apply -f deployment.yaml
+
+kubectl get pods       
+# NAME                        READY   STATUS    RESTARTS
+# hellok8s-6678f66cb8-42jtr   1/1     Running   0       
+
+
+# Replace the pod name with your local pod name
+kubectl delete pod hellok8s-6678f66cb8-42jtr
+# pod "hellok8s-6678f66cb8-42jtr" deleted
+
+kubectl get pods
+# NAME                        READY   STATUS    RESTARTS  
+# hellok8s-6678f66cb8-8nqf2   1/1     Running   0         

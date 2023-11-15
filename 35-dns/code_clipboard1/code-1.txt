@@ -1,0 +1,4 @@
+kubectl get services
+
+# NAME           TYPE        CLUSTER-IP      PORT(S)        
+# hellok8s-svc   NodePort    10.102.141.32   4567:30001/TCP

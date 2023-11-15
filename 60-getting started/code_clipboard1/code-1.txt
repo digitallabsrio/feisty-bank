@@ -1,0 +1,11 @@
+kubectl apply -f namespace.yaml
+# namespace/my-namespace created
+
+$ kubectl get namespaces
+# NAME            STATUS
+# default         Active
+# docker          Active
+# ingress-nginx   Active
+# kube-public     Active
+# kube-system     Active
+# my-namespace    Active

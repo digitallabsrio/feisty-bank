@@ -1,0 +1,3 @@
+get "*" do
+  "[v2] Hello, Kubernetes!\n"
+end

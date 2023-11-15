@@ -1,0 +1,18 @@
+kubectl describe nodes
+# ...
+# Allocatable:
+#  cpu:                2
+#  ephemeral-storage:  56453061334
+#  hugepages-1Gi:      0
+#  hugepages-2Mi:      0
+#  memory:             1944636Ki
+#  pods:               110
+# ...
+# ...
+# non-terminated pods:
+#   namespace    name                 cpu requests
+#   ---------    ----                 ------------
+#   kube-system  kube-apiserver...    250m (12%)  
+#   kube-system  kube-controlle...    200m (10%)  
+#   kube-system  kube-dns-86f4d...    260m (13%)  
+#   kube-system  kube-scheduler...    100m (5%)   

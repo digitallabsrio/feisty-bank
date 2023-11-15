@@ -1,0 +1,12 @@
+kubectl apply -f ingress-updated.yaml
+# ingress.extensions/hello-ingress configured
+
+# Inorder to run the ingress on the platform, you need to run the following port-forward command:
+# You don't require this command if you're working locally
+nohup kubectl port-forward --address 0.0.0.0 -n ingress-nginx service/ingress-nginx-controller 80:80 > /dev/null 2>&1 &
+
+curl http://localhost/hello
+# [v3] Hello, Kubernetes, from hellok8s-7f4c57d446-qth54!
+
+curl http://localhost
+# (nginx welcome page)

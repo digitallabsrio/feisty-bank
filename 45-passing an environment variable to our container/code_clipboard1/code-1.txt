@@ -1,0 +1,4 @@
+kubectl apply -f hellok8s.yaml 
+
+curl localhost:30001
+# [v4] Hello, Kubernetes (from hellok8s-69dbd44879-vt8dv)

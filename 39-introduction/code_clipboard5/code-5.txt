@@ -1,0 +1,11 @@
+kubectl get pods
+# NAME                        READY   STATUS    RESTARTS 
+# hellok8s-7f4c57d446-6c8b8   1/1     Running   0        
+# hellok8s-7f4c57d446-jkqbl   1/1     Running   0        
+# nginx-77c5c66899-dgkk2      1/1     Running   0        
+# nginx-77c5c66899-w9srw      1/1     Running   0        
+
+kubectl get service
+# NAME           TYPE        CLUSTER-IP       PORT(S)   
+# hellok8s-svc   ClusterIP   10.102.242.233   4567/TCP  
+# nginx-svc      ClusterIP   10.96.19.78      1234/TCP 

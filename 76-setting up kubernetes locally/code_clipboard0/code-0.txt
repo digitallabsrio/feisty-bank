@@ -1,0 +1,3 @@
+kubectl cluster-info
+# Kubernetes master is running at https://localhost:6443
+# KubeDNS is running at https://localhost:6443/api...

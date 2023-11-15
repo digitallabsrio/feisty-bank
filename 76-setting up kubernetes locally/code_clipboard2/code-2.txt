@@ -1,0 +1,7 @@
+kubectl cluster-info
+# Kubernetes master is running at https://localhost:6443
+# KubeDNS is running at https://localhost:6443/api/v1/...
+
+kubectl get nodes
+# NAME                 STATUS   ROLES    AGE   VERSION
+# docker-for-desktop   Ready    master   1d    v1.10.11

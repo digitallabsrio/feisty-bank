@@ -1,0 +1,6 @@
+curl --verbose http://localhost
+# ...
+# > GET / HTTP/1.1
+# > Host: localhost
+# > User-Agent: curl/7.54.0
+# ...

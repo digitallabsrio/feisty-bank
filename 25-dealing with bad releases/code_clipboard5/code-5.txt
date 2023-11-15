@@ -1,0 +1,7 @@
+kubectl apply -f deployment.yaml
+# deployment.apps/hellok8s configured
+
+kubectl get pods
+# NAME                       READY   STATUS        
+# hellok8s-8cc69fc69-q8gx7   1/1     Running       
+# hellok8s-8cc69fc69-vrrz4   1/1     Running   

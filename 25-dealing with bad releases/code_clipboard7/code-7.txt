@@ -1,0 +1,8 @@
+kubectl apply -f buggy.yaml
+# deployment.apps/hellok8s configured
+
+kubectl get pods
+# NAME                        READY   STATUS    RESTARTS   
+# hellok8s-68f47f657c-zwn6g   0/1     Running   0          
+# hellok8s-8cc69fc69-q8gx7    1/1     Running   0          
+# hellok8s-8cc69fc69-vrrz4    1/1     Running   0  

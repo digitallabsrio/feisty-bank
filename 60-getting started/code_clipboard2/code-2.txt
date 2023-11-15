@@ -1,0 +1,3 @@
+kubectl get pods -n ingress-nginx
+# NAME                                        READY   STATUS
+# nginx-ingress-controller-57548b96c8-mwkrp   1/1     Running

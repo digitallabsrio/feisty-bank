@@ -1,0 +1,6 @@
+kubectl apply -f clusterip-service.yaml
+# service/clusterip-svc created
+
+kubectl get service
+# NAME            TYPE        CLUSTER-IP
+# clusterip-svc   ClusterIP   10.102.147.215

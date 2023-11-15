@@ -1,0 +1,6 @@
+env:
+  - name: ANOTHER_VARIABLE_NAME
+    valueFrom:
+      configMapKeyRef:
+        name: hellok8s-config
+        key: MESSAGE

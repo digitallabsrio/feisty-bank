@@ -1,0 +1,12 @@
+kubectl get pods
+# NAME                        READY   STATUS     
+# hellok8s-6678f66cb8-8nqf2   1/1     Running    
+# hellok8s-6678f66cb8-cmb4j   1/1     Running    
+# hellok8s-6678f66cb8-6r7fb   1/1     Terminating
+# hellok8s-6678f66cb8-7bg4s   1/1     Terminating
+# hellok8s-6678f66cb8-96xh5   1/1     Terminating
+# hellok8s-6678f66cb8-h5tg4   1/1     Terminating
+# hellok8s-6678f66cb8-j2b5n   1/1     Terminating
+# hellok8s-6678f66cb8-l5hzw   1/1     Terminating
+# hellok8s-6678f66cb8-r9bzd   1/1     Terminating
+# hellok8s-6678f66cb8-wl4bb   1/1     Terminating

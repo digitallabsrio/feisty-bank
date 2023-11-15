@@ -1,0 +1,26 @@
+# Applying the ingress Controller
+
+kubectl apply -f \
+https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.44.0/\
+deploy/static/provider/cloud/deploy.yaml
+
+kubectl apply -f hellok8s.yaml
+# service/hellok8s-svc created
+# deployment.apps/hellok8s created
+
+kubectl apply -f nginx.yaml
+# service/nginx-svc created
+# deployment.apps/nginx created
+
+kubectl apply -f ingress.yaml
+# ingress.extensions/hello-ingress configured
+
+# Please enter the following command if you get an error while applying the ingress 
+# and then reapply the ingress using the above command
+# If not, you can skip this command and move ahead
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
+kubectl get ingress
+# NAME           HOSTS             ADDRESS   PORTS
+# hello-ingress  nginx.local.com   localhost 80
+#                hello.local.com

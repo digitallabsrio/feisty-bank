@@ -1,0 +1,6 @@
+readinessProbe:
+  periodSeconds: 1
+  successThreshold: 5
+  httpGet:
+    path: /
+    port: 4567

@@ -1,0 +1,2 @@
+docker build . -t brianstorti/hellok8s:v2
+docker push brianstorti/hellok8s:v2

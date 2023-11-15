@@ -1,0 +1,14 @@
+kubectl describe secret default-token
+
+# Name:         default-token-f9kl9
+# Namespace:    default
+# Labels:       <none>
+# Annotations:  kubernetes.io/service-account.name: default
+#               kubernetes.io/service-account.uid: 0bbbfb03
+# Type:  kubernetes.io/service-account-token
+# 
+# Data
+# ====
+# ca.crt:     1025 bytes
+# namespace:  7 bytes
+# token:      eyJhbGciOiJS...

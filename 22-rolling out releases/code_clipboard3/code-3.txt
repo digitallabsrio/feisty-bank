@@ -1,0 +1,6 @@
+kubectl apply -f deployment.yaml
+# deployment.apps/hellok8s configured
+
+kubectl get pods
+# You should see new pods being created 
+# and the old ones being terminated.

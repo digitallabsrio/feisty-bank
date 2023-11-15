@@ -1,0 +1,2 @@
+curl $HELLOK8S_SVC_SERVICE_HOST:$HELLOK8S_SVC_SERVICE_PORT
+# [v3] Hello, Kubernetes, from hellok8s-7f4c57d446-lh44f!
